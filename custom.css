@@ -38,7 +38,7 @@ nav a {
     color: rgb(69, 235, 165);
 }
 
-.hero {
+.hero, .about {
     height: calc(100vh - 2.5rem);
 }
 
