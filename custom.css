@@ -17,3 +17,11 @@
     height: 2.5rem;
 }
 
+.nav-container > nav {
+    display: flex;
+    height: 100%;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
