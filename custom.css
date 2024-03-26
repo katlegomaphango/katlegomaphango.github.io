@@ -38,3 +38,20 @@ nav a {
     color: rgb(69, 235, 165);
 }
 
+.home-img {
+    width: 100px;
+}
+
+.hero {
+    height: calc(100vh - 2.5rem);
+    border: 1px solid red;
+}
+
+.home-containter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
