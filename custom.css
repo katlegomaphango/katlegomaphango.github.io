@@ -55,3 +55,15 @@ nav a {
     justify-content: center;
     align-items: center;
 }
+
+.home-title_containter {
+    border: 1px solid red;
+    margin-bottom: 1rem;
+}
+
+.home-title {
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: rgb(69, 235, 165);
+    font-weight: 900;
+}
