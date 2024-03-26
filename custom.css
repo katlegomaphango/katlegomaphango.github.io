@@ -78,3 +78,9 @@ nav a {
     object-fit: cover;
     box-shadow: -43px 28px 22px 0px rgba(0, 0, 0, 0.1);
 }
+
+.about-container {
+    width: 50%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
