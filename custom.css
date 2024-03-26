@@ -38,10 +38,6 @@ nav a {
     color: rgb(69, 235, 165);
 }
 
-.home-img {
-    width: 100px;
-}
-
 .hero {
     height: calc(100vh - 2.5rem);
     border: 1px solid red;
@@ -71,4 +67,17 @@ nav a {
 .home-subtitle {
     padding: 0.5rem;
     font-size: 1.3rem;
+}
+
+.home-img_container {
+    margin-top: 2rem;
+}
+
+.home-img {
+    border: 1px solid red;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: -43px 28px 22px 0px rgba(0, 0, 0, 0.1);
 }
