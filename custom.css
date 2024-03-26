@@ -25,3 +25,11 @@
     align-items: center;
 }
 
+nav a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: black;
+}
+
