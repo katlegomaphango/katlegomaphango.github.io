@@ -6,5 +6,7 @@
 }
 
 .window {
-
+    background-color: rgb(29, 86, 110);
+    width: 100vw;
+    height: 100vh;
 }
