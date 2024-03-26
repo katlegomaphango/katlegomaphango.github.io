@@ -11,8 +11,9 @@
     height: 100vh;
 }
 
-header {
+.nav-container {
     border: 1px dashed red;
     width: 100%;
     height: 2.5rem;
 }
+
