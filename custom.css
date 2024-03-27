@@ -44,7 +44,7 @@ nav a {
 .projects,
 .contact {
     height: calc(100vh - 2.5rem);
-    border: 1px solid red;
+    border: 1px solid transparent;
 }
 
 .home-containter {
