@@ -175,3 +175,8 @@ nav a {
     padding-bottom: 6.25rem;
     padding-top: 6.25rem;
 }
+
+.contact-container {
+    max-width: 25rem;
+    margin: 0 auto;
+}
