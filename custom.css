@@ -156,4 +156,11 @@ nav a {
     color: rgb(69, 235, 165);
 }
 
+.projects-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
 
