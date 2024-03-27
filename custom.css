@@ -204,10 +204,26 @@ hr {
 }
 
 .contact-name {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1.25rem;
     line-height: 1.6;
     letter-spacing: 0.0075em;
     padding-top: 16px;
     padding-bottom: 16px;
+}
+
+.contact-phone_div,
+.contact-email_div {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.contact-phone_call,
+.contact-email_text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.contact-email_div a {
+    color: black;
 }
