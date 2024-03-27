@@ -198,3 +198,7 @@ nav a {
     line-height: 1.334;
     letter-spacing: 0;
 }
+
+hr {
+    border-color: rgb(69, 235, 165);
+}
