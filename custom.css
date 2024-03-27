@@ -40,6 +40,7 @@ nav a {
 
 .hero, .about {
     height: calc(100vh - 2.5rem);
+    border: 1px solid red;
 }
 
 .home-containter {
@@ -83,4 +84,17 @@ nav a {
     width: 50%;
     max-width: 1000px;
     margin: 0 auto;
+    border: 1px solid red;
+}
+
+.about-title_container {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid red;
+}
+
+.about-title {
+    text-align: right;
+    color: rgb(69, 235, 165);
+    font-size: 2rem;
 }
