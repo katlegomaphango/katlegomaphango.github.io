@@ -227,3 +227,14 @@ hr {
 .contact-email_div a {
     color: black;
 }
+
+.contact-apps {
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: rgb(69, 235, 165);
+    font-size: 1.3rem;
+}
