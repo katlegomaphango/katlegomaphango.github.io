@@ -38,9 +38,9 @@ nav a {
     color: rgb(69, 235, 165);
 }
 
-.hero, .about {
+.hero, .about, .skills {
     height: calc(100vh - 2.5rem);
-    border: 1px solid transparent;
+    border: 1px solid red;
 }
 
 .home-containter {
@@ -109,4 +109,8 @@ nav a {
 
 .about-text {
     color: white;
+}
+
+.skills {
+    background-color: rgb(22, 58, 95);
 }
