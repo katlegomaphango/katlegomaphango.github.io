@@ -41,7 +41,8 @@ nav a {
 .hero, 
 .about, 
 .skills,
-.projects {
+.projects,
+.contact {
     height: calc(100vh - 2.5rem);
     border: 1px solid red;
 }
@@ -166,4 +167,74 @@ nav a {
 .projects-temp {
     font-size: 5rem;
     font-weight: bold;
+}
+
+.contact {
+    background: rgb(22, 58, 95);
+    width: 100%;
+    padding-bottom: 6.25rem;
+    padding-top: 6.25rem;
+}
+
+.contact-container {
+    max-width: 25rem;
+    margin: 0 auto;
+}
+
+.contact-container_inner {
+    color: rgba(0, 0, 0, 0.87);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 11px 15px -7px, 
+                rgba(0, 0, 0, 0.14) 0px 24px 38px 3px, 
+                rgba(0, 0, 0, 0.12) 0px 9px 46px 8px;
+    padding: 2rem;
+    background: rgb(20, 70, 110);
+}
+
+.contact-title {
+    margin: 0 0 1rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.334;
+    letter-spacing: 0;
+}
+
+hr {
+    border-color: rgb(69, 235, 165);
+}
+
+.contact-name {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.contact-phone_div,
+.contact-email_div {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.contact-phone_call,
+.contact-email_text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.contact-email_div a {
+    color: black;
+}
+
+.contact-apps {
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: rgb(69, 235, 165);
+    font-size: 1.3rem;
 }
