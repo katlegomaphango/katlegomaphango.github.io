@@ -38,6 +38,12 @@ nav a {
     color: rgb(69, 235, 165);
 }
 
+@media screen and (max-width: 480px) {
+    .window {
+        background-color: black;
+    }
+}
+
 .hero, 
 .about, 
 .skills,
