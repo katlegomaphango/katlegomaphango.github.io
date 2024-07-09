@@ -45,12 +45,6 @@ nav a {
     color: rgb(69, 235, 165);
 }
 
-@media screen and (max-width: 480px) {
-    .window {
-        border: 2px solid white;
-    }
-}
-
 .hero, 
 .about, 
 .skills,
@@ -83,6 +77,28 @@ nav a {
     padding: 0.5rem;
     font-size: 1.3rem;
 }
+
+@media screen and (max-width: 480px) {
+    .window {
+        border: 2px solid rgb(0, 0, 0);
+    }
+
+    .home-title {
+        padding: 0.5rem;
+        font-size: 3rem;
+        color: rgb(69, 235, 165);
+        font-weight: 900;
+    }
+    
+    .home-subtitle {
+        padding: 0.5rem;
+        font-size: 1.6rem;
+        text-wrap: wrap;
+        border: 2px solid rgb(0, 0, 0);
+    }
+}
+
+
 
 .home-img_container {
     margin-top: 2rem;
