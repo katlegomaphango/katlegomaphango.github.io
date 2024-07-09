@@ -156,6 +156,26 @@ nav a {
     height: 8rem;
 }
 
+.projects-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    color: rgb(69, 235, 165);
+}
+
+.projects-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.projects-temp {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 480px) {
     .window {
         border: 2px solid rgb(0, 0, 0);
@@ -208,26 +228,17 @@ nav a {
     .skill {
         width: 6rem;
     }
-}
 
-.projects-title {
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
-    color: rgb(69, 235, 165);
-}
+    .projects-title {
+        font-size: 2.5rem;
+    }
 
-.projects-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10rem;
-}
-
-.projects-temp {
-    font-size: 5rem;
-    font-weight: bold;
+    .projects-body {
+        margin-top: 8rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: 1px red dashed;
+    }
 }
 
 .contact {
