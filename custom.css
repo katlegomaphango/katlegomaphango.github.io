@@ -247,10 +247,6 @@ hr {
 }
 
 @media screen and (max-width: 480px) {
-    .window {
-        border: 2px solid rgb(0, 0, 0);
-    }
-
     .home-title {
         padding: 0.5rem;
         font-size: 3rem;
@@ -311,7 +307,6 @@ hr {
     }
 
     .contact {
-        border: 1px dashed red;
         display: flex;
         align-items: center;
         justify-content: center;
