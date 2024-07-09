@@ -16,6 +16,13 @@
     height: 2.5rem;
 }
 
+.nav-toggle {
+    display: none;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
 .nav-container > nav {
     display: flex;
     height: 100%;
@@ -40,7 +47,7 @@ nav a {
 
 @media screen and (max-width: 480px) {
     .window {
-        background-color: black;
+        border: 2px solid white;
     }
 }
 
