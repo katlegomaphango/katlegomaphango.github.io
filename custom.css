@@ -88,13 +88,14 @@ nav a {
         font-size: 3rem;
         color: rgb(69, 235, 165);
         font-weight: 900;
+        margin-top: -5rem;
     }
     
     .home-subtitle {
-        padding: 0.5rem;
+        padding: 1rem;
         font-size: 1.6rem;
         text-wrap: wrap;
-        border: 2px solid rgb(0, 0, 0);
+        text-align: center;
     }
 }
 
