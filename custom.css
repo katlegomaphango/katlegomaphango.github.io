@@ -321,3 +321,7 @@ hr {
         border-width: 2px;
     }
 }
+
+@media screen and (max-width: 780px) {
+
+}
