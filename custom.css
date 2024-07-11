@@ -322,6 +322,23 @@ hr {
     }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
+    .window {
+        border: 5px dashed black;
+    }
 
+    .home-title {
+        padding: 0.5rem;
+        font-size: 4rem;
+        color: rgb(69, 235, 165);
+        font-weight: 900;
+        margin-top: -5rem;
+    }
+
+    .home-subtitle {
+        padding: 1rem;
+        font-size: 2rem;
+        text-wrap: wrap;
+        text-align: center;
+    }
 }
