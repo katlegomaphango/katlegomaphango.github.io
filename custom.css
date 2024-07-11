@@ -391,4 +391,8 @@ hr {
         font-weight: 900;
         font-size: 2rem;
     }
+
+    hr {
+        border-width: 0.3rem;
+    }
 }
