@@ -341,4 +341,23 @@ hr {
         text-wrap: wrap;
         text-align: center;
     }
+
+    .about-container {
+        border: 1px dashed red;
+        width: 80%;
+        margin-top: 2.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .about-title{
+        text-align: center;
+    }
+
+    .about-header {
+        padding: 1rem;
+    }
+
+    .about-text {
+        line-height: 1.3;
+    }
 }
