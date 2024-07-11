@@ -370,4 +370,14 @@ hr {
         width: 80%;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .projects-title {
+        font-size: 3.5rem;
+    }
+
+    .projects-body {
+        margin-top: 8rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 }
