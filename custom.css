@@ -380,4 +380,15 @@ hr {
         margin-left: 2rem;
         margin-right: 2rem;
     }
+
+    .contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-title {
+        font-weight: 900;
+        font-size: 2rem;
+    }
 }
