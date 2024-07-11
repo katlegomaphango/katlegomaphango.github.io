@@ -263,7 +263,6 @@ hr {
     }
 
     .about-container {
-        border: 1px dashed red;
         width: 90%;
         margin-top: 2rem;
     }
@@ -323,9 +322,6 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
-    .window {
-        border: 5px dashed black;
-    }
 
     .home-title {
         padding: 0.5rem;
@@ -343,7 +339,6 @@ hr {
     }
 
     .about-container {
-        border: 1px dashed red;
         width: 80%;
         margin-top: 2.5rem;
         padding-bottom: 2rem;
