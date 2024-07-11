@@ -360,4 +360,14 @@ hr {
     .about-text {
         line-height: 1.3;
     }
+
+    .skills-title {
+        font-size: 3rem;
+        padding-top: 3rem;
+    }
+
+    .skills-container {
+        width: 80%;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
