@@ -18,12 +18,18 @@
 
 .nav-toggle {
     display: none;
-    position: absolute;
-    right: 1rem;
-    top: 1rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(69, 235, 165);
+    color: rgb(69, 235, 165);
+    font-weight: 700;
+    /* background: rgb(20, 70, 110); */
 }
 
-.nav-container > nav {
+.nav {
     display: flex;
     height: 100%;
     gap: 1rem;
@@ -43,6 +49,39 @@ nav a {
     background-color: rgb(20, 70, 110);
     padding: 0.3rem;
     color: rgb(69, 235, 165);
+}
+
+@media screen and (max-width: 480px) {
+    .nav-container {
+        height: auto;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        background: rgb(22, 58, 95);
+        flex-direction: column;
+        height: calc(100vh - 18px);
+        position: relative;
+        justify-content: start;
+        align-items: center;
+        padding-top: 2rem;
+    }
+
+    .nav.active {
+        display: flex;
+    }
+
+    .nav-link {
+        padding: 1rem 0;
+        width: 90%;
+        text-align: center;
+        border: 1px teal solid;
+        color: white;
+    }
 }
 
 .hero, 
