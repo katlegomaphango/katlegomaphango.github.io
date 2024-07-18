@@ -341,7 +341,11 @@ hr {
         margin-top: 8rem;
         margin-left: 1rem;
         margin-right: 1rem;
-        border: 1px red dashed;
+    }
+
+    .projects-temp {
+        font-size: 2rem;
+        text-align: center;
     }
 
     .contact {
