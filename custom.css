@@ -8,7 +8,7 @@
 .window {
     background-color: rgb(29, 86, 110);
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .nav-container {
@@ -286,6 +286,9 @@ hr {
 }
 
 @media screen and (max-width: 480px) {
+    .window {
+        height: auto;
+    }
     .home-title {
         padding: 0.5rem;
         font-size: 3rem;
@@ -299,6 +302,10 @@ hr {
         font-size: 1.6rem;
         text-wrap: wrap;
         text-align: center;
+    }
+
+    .about {
+        height: auto;
     }
 
     .about-container {
