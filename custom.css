@@ -464,3 +464,34 @@ hr {
         font-size: 1.5rem;
     }
 }
+
+@media screen and (max-height: 568px) {
+    .home-subtitle {
+        font-size: 1rem;
+    }
+    .home-img {
+        max-width: 10rem;
+        max-height: 10rem;
+    }
+    .skills-title {
+        padding-top: 0.5rem;
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+    .skills-container {
+        width: 100%;
+        margin-top: 0;
+        gap: 0;
+        align-items: start;
+    }
+    .skill {
+        width: 3rem;
+        align-self: auto;
+    }
+    .skill-img > img{
+        height: 5rem; 
+    }
+    .skill-name {
+        display: none;
+    }
+}
