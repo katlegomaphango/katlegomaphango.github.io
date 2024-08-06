@@ -233,7 +233,7 @@ nav a {
 }
 
 .contact-container_inner {
-    color: rgba(0, 0, 0, 0.87);
+    color: white;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 11px 15px -7px, 
                 rgba(0, 0, 0, 0.14) 0px 24px 38px 3px, 
@@ -276,7 +276,7 @@ hr {
 }
 
 .contact-email_div a {
-    color: black;
+    color: rgb(69, 235, 165);
 }
 
 .contact-apps {
