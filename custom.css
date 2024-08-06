@@ -42,13 +42,18 @@ nav a {
 }
 
 .nav-link {
-    color: black;
+    color: rgb(69, 235, 165);;
 }
 
 .nav-link:hover {
     background-color: rgb(20, 70, 110);
     padding: 0.3rem;
-    color: rgb(69, 235, 165);
+    color: white;
+}
+
+.nav-link.active {
+    background-color: rgb(20, 70, 110);
+    padding: 0.5rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -289,6 +294,11 @@ hr {
     .window {
         height: auto;
     }
+
+    .nav-link.active {
+        background-color: rgb(29, 86, 110);
+    }
+
     .home-title {
         padding: 0.5rem;
         font-size: 3rem;
