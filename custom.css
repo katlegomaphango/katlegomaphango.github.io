@@ -47,7 +47,6 @@ nav a {
 
 .nav-link:hover {
     background-color: rgb(20, 70, 110);
-    padding: 0.3rem;
     color: white;
 }
 
